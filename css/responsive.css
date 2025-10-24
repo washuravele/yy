@@ -1,0 +1,31 @@
+@media (max-width:845px){
+  #welcomeText{
+    width: 80%;
+    color:whitesmoke;
+  }
+  #welcomeText > p > span{
+    color: #f3bef3;
+  }
+}
+
+
+@media (max-width:582px){
+    #dark-logo{
+         justify-content: flex-start;
+         margin-left: 10px;
+    }
+    
+    #logo > img{
+     animation-name: none ;
+     animation-duration: none;
+   }
+    #logo > hr{   
+     width: auto;
+     margin-top: -5px;
+     border: #A376A2 1px solid;
+  } 
+  
+  #navBarOptions{
+    margin-right: 10px;
+}
+}
