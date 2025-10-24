@@ -10,10 +10,10 @@ darkModeBtn.addEventListener('click', () => {
   
   if(isDark){
     $("#darkmode > img").attr("src","./images/icons/dark-mode.png");
-    $("#logo >img").attr("src","/images/logo/MED-ACCESS-LOGO-DARK.png");
+    $("#logo >img").attr("src","./images/logo/MED-ACCESS-LOGO-DARK.png");
     }else{
     $("#darkmode > img").attr("src","./images/icons/light-mode.png")
-    $("#logo >img").attr("src","/images/logo/MED-ACCESS-LOGO-LIGHT.png");
+    $("#logo >img").attr("src","./images/logo/MED-ACCESS-LOGO-LIGHT.png");
   }
 });
 
@@ -52,7 +52,7 @@ setInterval(()=>{
   heromediaQuery();
 if (is2){
    $("#hero").css({
-     "background-image": "url('../images/hero-img-2.png')",
+     "background-image": "url('./images/hero-img-2.png')",
      "justify-content": "flex-end", 
   });
   $("#welcomeText").css({
@@ -63,13 +63,14 @@ if (is2){
    
 }else{
    $("#hero").css({
-     "background-image": "url('../images/hero-img-1.png')",
+     "background-image": "url('./images/hero-img-1.png')",
      "justify-content": "flex-start"
   });
   is2=true;
 }
   heromediaQuery();
 },20000);
+
 
 
 
